@@ -14,7 +14,7 @@ services:
     restart: always
   dynamodb-admin:
     container_name: dynamodb-admin
-    image: node:lts
+    image: node:lts-alpine
     command: npx dynamodb-admin
     environment:
       DYNAMO_ENDPOINT: http://dynamo-persistent:8000
