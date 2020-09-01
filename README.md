@@ -16,7 +16,7 @@ Create a folder for the persisting data and set permissions
   mkdir data && chmod 755 data -R
 ```
 
-Up container
+Execute container
 ```shell
   docker-compose up --build --force-recreate -d
 ```
