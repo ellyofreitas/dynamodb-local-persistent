@@ -17,7 +17,7 @@ services:
     image: node:lts-alpine
     command: npx dynamodb-admin
     environment:
-      DYNAMO_ENDPOINT: http://dynamo-persistent:8000
+      DYNAMO_ENDPOINT: http://dynamodb-persistent:8000
     ports:
       - '8001:8001'
     networks:
